@@ -3,8 +3,6 @@ Deepfake Video Detection System using ResNeXt & LSTM
 
 English | Türkçe
 
-<a name="english"></a>
-🇺🇸 English
 📌 Project Overview
 
 This project was developed to distinguish between real and fake videos using a hybrid deep learning architecture. ResNeXt and LSTM models are integrated to analyze both spatial (visual) and temporal (consistency) features of the videos.
@@ -36,8 +34,7 @@ This project was developed to distinguish between real and fake videos using a h
 
     Confusion Matrix: 45 True Positives, 31 True Negatives.
 
-<a name="türkçe"></a>
-🇹🇷 Türkçe
+
 📌 Proje Özeti
 
 Bu proje, hibrit bir derin öğrenme mimarisi kullanarak gerçek ve sahte videoları ayırt etmek amacıyla geliştirilmiştir. ResNeXt ve LSTM modelleri bir araya getirilerek videoların hem görsel hem de zamansal tutarlılıkları analiz edilmiştir.
@@ -78,5 +75,6 @@ numpy>=1.19.2
 opencv-python>=4.4.0
 scikit-learn>=0.23.2
 matplotlib>=3.3.2
+
 
 Command: pip install -r requirements.txt
