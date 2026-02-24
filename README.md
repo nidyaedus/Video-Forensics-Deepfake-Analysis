@@ -9,25 +9,25 @@
 ## 🇺🇸 English
 
 ### 📌 Project Overview
-[cite_start]This project was developed to distinguish between real and fake videos using a hybrid deep learning architecture[cite: 5]. [cite_start]ResNeXt and LSTM models are integrated to analyze both spatial (visual) and temporal (consistency) features of the videos[cite: 19, 20].
+This project was developed to distinguish between real and fake videos using a hybrid deep learning architecture. ResNeXt and LSTM models are integrated to analyze both spatial (visual) and temporal (consistency) features of the videos.
 
 ### 🛠️ Tech Stack & Environment
-* [cite_start]**Google Colab:** Used for high-performance GPU support during the 20-epoch training process[cite: 17].
-* [cite_start]**Libraries:** Developed in Python using `PyTorch`, `OpenCV`, `NumPy`, and `Scikit-learn`[cite: 17].
+* **Google Colab:** Used for high-performance GPU support during the 20-epoch training process.
+* **Libraries:** Developed in Python using `PyTorch`, `OpenCV`, `NumPy`, and `Scikit-learn`.
 
 ### 🔗 References
 * **Original Project:** Based on [Deepfake detection using deep learning](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning).
-* [cite_start]**Dataset:** Custom subset derived from the **Celeb-DF-v2** dataset[cite: 8].
+* **Dataset:** Custom subset derived from the **Celeb-DF-v2** dataset.
 
 ### 📊 Dataset Information
-* [cite_start]**Full Dataset:** Consists of **667 videos** (325 Real, 342 Fake)[cite: 12].
+* **Full Dataset:** Consists of **667 videos** (325 Real, 342 Fake).
 * **Sample Data:** A small sample (10 Real, 10 Fake) is provided as `sample_dataset.zip` for testing.
-* [cite_start]**Preprocessing:** Videos were decomposed into frames; faces were detected, cropped, and normalized[cite: 14, 15].
+* **Preprocessing:** Videos were decomposed into frames; faces were detected, cropped, and normalized.
 
 ### 📈 Performance
-* [cite_start]**Training Accuracy:** 85%[cite: 25].
-* [cite_start]**Test Accuracy:** 56.7%[cite: 25].
-* [cite_start]**Confusion Matrix:** 45 True Positives, 31 True Negatives[cite: 27, 28, 32, 33].
+* **Training Accuracy:** 85%.
+* **Test Accuracy:** 56.7%.
+* **Confusion Matrix:** 45 True Positives, 31 True Negatives.
 
 ---
 
@@ -35,25 +35,25 @@
 ## 🇹🇷 Türkçe
 
 ### 📌 Proje Özeti
-[cite_start]Bu proje, hibrit bir derin öğrenme mimarisi kullanarak gerçek ve sahte videoları ayırt etmek amacıyla geliştirilmiştir[cite: 5]. [cite_start]ResNeXt ve LSTM modelleri bir araya getirilerek videoların hem görsel hem de zamansal tutarlılıkları analiz edilmiştir[cite: 19, 20].
+Bu proje, hibrit bir derin öğrenme mimarisi kullanarak gerçek ve sahte videoları ayırt etmek amacıyla geliştirilmiştir. Proje kapsamında ResNeXt ve LSTM modelleri bir araya getirilerek videoların hem görsel hem de zamansal tutarlılıkları analiz edilmiştir.
 
 ### 🛠️ Geliştirme Ortamı ve Teknoloji Yığını
-* [cite_start]**Google Colab:** 20 epoch süren eğitim sürecinde GPU desteği sağlaması nedeniyle tercih edilmiştir[cite: 17].
-* **Kütüphaneler:** Python diliyle; [cite_start]`PyTorch`, `OpenCV` ve `Scikit-learn` kullanılarak kodlanmıştır[cite: 17].
+* **Google Colab:** 20 epoch süren eğitim sürecinde GPU desteği sağlaması nedeniyle tercih edilmiştir.
+* **Kütüphaneler:** Python diliyle; `PyTorch`, `OpenCV` ve `Scikit-learn` kullanılarak kodlanmıştır.
 
 ### 🔗 Referanslar
 * **Orijinal Repo:** abhijithjadhav/Deepfake_detection_using_deep_learning
-* [cite_start]**Veri Kümesi:** Kaggle üzerindeki **Celeb-DF-v2** veri setinden türetilmiştir[cite: 8].
+* **Veri Kümesi:** Kaggle üzerindeki **Celeb-DF-v2** veri setinden türetilmiştir.
 
 ### 📊 Veri Seti Bilgileri
-* [cite_start]**Tam Veri Seti:** Toplam **667 videodan** (325 Gerçek, 342 Sahte) oluşmaktadır[cite: 12].
+* **Tam Veri Seti:** Toplam **667 videodan** (325 Gerçek, 342 Sahte) oluşmaktadır.
 * **Örnek Veri:** 10 Gerçek ve 10 Sahte videodan oluşan örneklem `sample_dataset.zip` adıyla sunulmuştur.
-* [cite_start]**Ön İşleme:** Videolar karelere ayrılmış, yüz tespiti yapılmış ve normalize edilmiştir[cite: 14, 15].
+* **Ön İşleme:** Videolar karelere ayrılmış, yüz tespiti yapılmış ve normalize edilmiştir.
 
 ### 📈 Performans ve Sonuçlar
-* [cite_start]**Eğitim Başarısı:** %85[cite: 25].
-* [cite_start]**Test Doğruluğu:** %56.7[cite: 25].
-* [cite_start]**Karmaşıklık Matrisi:** 45 Doğru Sahte Tespiti, 31 Doğru Gerçek Tespiti[cite: 27, 28, 32, 33].
+* **Eğitim Başarısı:** %85.
+* **Test Doğruluğu:** %56.7.
+* **Karmaşıklık Matrisi:** 45 Doğru Sahte Tespiti, 31 Doğru Gerçek Tespiti.
 
 ---
 
